@@ -15,7 +15,7 @@ param_px = 30
 
 rootPath = 'E:/face'
 # base = r'E:\face\faces1'
-base = 'e:/photo1'
+base = 'e:/face/photo1'
 opath = rootPath + '/child.jpg'
 # 将原图放大十倍
 org_img = cv2.imread(opath)

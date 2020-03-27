@@ -2,7 +2,7 @@ import colorsys
 import numpy as np
 import cv2
 
-from image_deal.concat_img.getdoc.PrimaryColor import exter
+from concat_img.getdoc.PrimaryColor import exter
 
 
 def same1(img1, img2):

@@ -5,16 +5,15 @@ import numpy as np
 import cv2
 from tqdm import tqdm
 
-
 # base = r'E:\face\faces1'
-base = 'e:/photo1'
+base = 'e:/face/photo1'
 faces = os.listdir(base)
 groups = 2
 
 faceP = os.path.join(base, faces[0])
 abc = cv2.imread(faceP)
-abc
-base
+
+
 def getMean(img):
     mr = img[:, :, 0].mean()
     mg = img[:, :, 1].mean()
