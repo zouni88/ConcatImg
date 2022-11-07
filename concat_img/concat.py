@@ -13,10 +13,10 @@ from concat_img.comput_mean import group, getMean, getPathsByMean
 # 初始化参数
 param_px = 30
 
-rootPath = 'E:/face'
+rootPath = 'f:/face'
 # base = r'E:\face\faces1'
-base = 'e:/face/photo1'
-opath = rootPath + '/child.jpg'
+base = 'f:/face/love3'
+opath = rootPath + '/love.jpg'
 # 将原图放大十倍
 org_img = cv2.imread(opath)
 org_img = cv2.resize(org_img, dsize=(org_img.shape[1] * 10, org_img.shape[0] * 10), interpolation=cv2.INTER_NEAREST)
@@ -101,7 +101,7 @@ for r in tqdm(range(iterNum_row)):
     endx += param_px
     # if r == 0:
     #     break
-    cv2.imwrite(rootPath + '/123.jpg', org_img)
+    cv2.imwrite(rootPath + '/love_rep.jpg', org_img)
 
 
 def test():

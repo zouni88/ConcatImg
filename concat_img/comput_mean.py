@@ -6,7 +6,7 @@ import cv2
 from tqdm import tqdm
 
 # base = r'E:\face\faces1'
-base = 'e:/face/photo1'
+base = 'f:/face/love1'
 faces = os.listdir(base)
 groups = 2
 
